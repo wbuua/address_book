@@ -28,7 +28,7 @@ jobs:
 
     - name: Package with PyInstaller
       run: |
-        pyinstaller --onefile youur_script.py
+        pyinstaller --onefile addressbook.py
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
